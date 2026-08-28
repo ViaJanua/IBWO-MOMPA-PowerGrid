@@ -1,19 +1,39 @@
-# Python
-__pycache__/
-*.pyc
+# Python 虚拟环境
 .venv/
 venv/
-.env
-users.db
+env/
 
-# 前端
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE 配置（PyCharm 和 VS Code）
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 前端依赖和打包文件
 frontend/node_modules/
 frontend/dist/
 
-# 编辑器
-.vscode/
-.idea/
+# 数据库文件
+users.db
+*.db
 
 # 操作系统
 .DS_Store
 Thumbs.db
+
+# 日志和临时文件
+*.log
+*.tmp
+
+# 敏感信息
+.env
+
+# 数据缓存
+data/cache/
+*.pkl
